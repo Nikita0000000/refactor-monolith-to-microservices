@@ -22,7 +22,7 @@ script:
   - docker tag reverseproxy leonista/reverseproxy:v1.0.0
   - docker tag udagram-frontend leonista/udagram-frontend:v1.0.0
 
-after_success:
+after_success: 
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push leonista/udagram-api-feed:v1.0.0
   - docker push leonista/udagram-api-user:v1.0.0
