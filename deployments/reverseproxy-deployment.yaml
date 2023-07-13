@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: leonista/reverseproxy:v2.0.0
+        image: nikita0598/reverseproxy:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always

@@ -3,10 +3,10 @@ kind: ConfigMap
 metadata:
   name: env-config-mapp
 data:
-  POSTGRES_HOST: database-app.crwmqivtyt4b.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: database-1.crwmqivtyt4b.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   POSTGRES_USERNAME: postgres
-  AWS_BUCKET: database-255840645116
+  AWS_BUCKET: mycluster-appbucket
   AWS_REGION: us-east-1
   JWT_SECRET: testing
   AWS_PROFILE: default
