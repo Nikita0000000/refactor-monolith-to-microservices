@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-user
-        image: leonista/udagram-api-user:v1.0.0
+        image: leonista/udagram-api-user:v2.0.0
         imagePullPolicy: Always
         resources:
           requests:

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: leonista/udagram-frontend:v1.0.0
+        image: leonista/udagram-frontend:v2.0.0
         ports:
         - containerPort: 80
         imagePullPolicy: Always

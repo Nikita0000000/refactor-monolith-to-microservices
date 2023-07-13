@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend-feed
-        image: leonista/udagram-api-feed:v1.0.0
+        image: leonista/udagram-api-feed:v2.0.0
         imagePullPolicy: Always
         resources:
           requests:
