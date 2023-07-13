@@ -129,7 +129,7 @@
 									"raw": "{{host}}/api/v0/feed/:id",
 									"host": [
 										"{{host}}"
-									],
+									], 
 									"path": [
 										"api",
 										"v0",

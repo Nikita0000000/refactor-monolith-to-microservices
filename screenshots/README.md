@@ -20,6 +20,6 @@ kubectl describe services
 kubectl describe hpa
 ```
 * To verify that you have set up logging with a backend application
-```bash
+```bash 
 kubectl logs {pod_name}
 ```
